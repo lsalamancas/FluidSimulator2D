@@ -1,0 +1,3 @@
+/home/fer/projects/FluidSimulator2D/build/CMakeFiles/fluid_sim.dir
+/home/fer/projects/FluidSimulator2D/build/CMakeFiles/edit_cache.dir
+/home/fer/projects/FluidSimulator2D/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/fer/projects/FluidSimulator2D/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
