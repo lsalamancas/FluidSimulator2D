@@ -4,6 +4,8 @@ fluid_sim: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/crtbeginS.o \
   CMakeFiles/fluid_sim.dir/src/main.cpp.o \
   CMakeFiles/fluid_sim.dir/src/Renderer.cpp.o \
+  CMakeFiles/fluid_sim.dir/src/ParticleSystem.cpp.o \
+  CMakeFiles/fluid_sim.dir/src/FluidSolver.cpp.o \
   /usr/lib/libglfw.so.3.4 \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../lib/libGLEW.so \
   /usr/lib/libGLX.so \
@@ -52,6 +54,10 @@ fluid_sim: \
 CMakeFiles/fluid_sim.dir/src/main.cpp.o:
 
 CMakeFiles/fluid_sim.dir/src/Renderer.cpp.o:
+
+CMakeFiles/fluid_sim.dir/src/ParticleSystem.cpp.o:
+
+CMakeFiles/fluid_sim.dir/src/FluidSolver.cpp.o:
 
 /usr/lib/libglfw.so.3.4:
 

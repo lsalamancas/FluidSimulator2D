@@ -8,7 +8,7 @@ cmake_policy(SET CMP0072 NEW)  # Prefer GLVND (modern OpenGL)
 find_package(OpenGL REQUIRED)
 find_package(glfw3 REQUIRED)
 
-add_executable(fluid_sim src/main.cpp src/Renderer.cpp)
+add_executable(fluid_sim src/main.cpp src/Renderer.cpp src/ParticleSystem.cpp src/FluidSolver.cpp) 
 target_link_libraries(fluid_sim OpenGL::GL glfw GLEW)
 
 

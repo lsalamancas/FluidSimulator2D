@@ -129,6 +129,54 @@ fluid_sim/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fluid_sim.dir/build.make CMakeFiles/fluid_sim.dir/build
 .PHONY : fluid_sim/fast
 
+src/FluidSolver.o: src/FluidSolver.cpp.o
+.PHONY : src/FluidSolver.o
+
+# target to build an object file
+src/FluidSolver.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fluid_sim.dir/build.make CMakeFiles/fluid_sim.dir/src/FluidSolver.cpp.o
+.PHONY : src/FluidSolver.cpp.o
+
+src/FluidSolver.i: src/FluidSolver.cpp.i
+.PHONY : src/FluidSolver.i
+
+# target to preprocess a source file
+src/FluidSolver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fluid_sim.dir/build.make CMakeFiles/fluid_sim.dir/src/FluidSolver.cpp.i
+.PHONY : src/FluidSolver.cpp.i
+
+src/FluidSolver.s: src/FluidSolver.cpp.s
+.PHONY : src/FluidSolver.s
+
+# target to generate assembly for a file
+src/FluidSolver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fluid_sim.dir/build.make CMakeFiles/fluid_sim.dir/src/FluidSolver.cpp.s
+.PHONY : src/FluidSolver.cpp.s
+
+src/ParticleSystem.o: src/ParticleSystem.cpp.o
+.PHONY : src/ParticleSystem.o
+
+# target to build an object file
+src/ParticleSystem.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fluid_sim.dir/build.make CMakeFiles/fluid_sim.dir/src/ParticleSystem.cpp.o
+.PHONY : src/ParticleSystem.cpp.o
+
+src/ParticleSystem.i: src/ParticleSystem.cpp.i
+.PHONY : src/ParticleSystem.i
+
+# target to preprocess a source file
+src/ParticleSystem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fluid_sim.dir/build.make CMakeFiles/fluid_sim.dir/src/ParticleSystem.cpp.i
+.PHONY : src/ParticleSystem.cpp.i
+
+src/ParticleSystem.s: src/ParticleSystem.cpp.s
+.PHONY : src/ParticleSystem.s
+
+# target to generate assembly for a file
+src/ParticleSystem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fluid_sim.dir/build.make CMakeFiles/fluid_sim.dir/src/ParticleSystem.cpp.s
+.PHONY : src/ParticleSystem.cpp.s
+
 src/Renderer.o: src/Renderer.cpp.o
 .PHONY : src/Renderer.o
 
@@ -186,6 +234,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... fluid_sim"
+	@echo "... src/FluidSolver.o"
+	@echo "... src/FluidSolver.i"
+	@echo "... src/FluidSolver.s"
+	@echo "... src/ParticleSystem.o"
+	@echo "... src/ParticleSystem.i"
+	@echo "... src/ParticleSystem.s"
 	@echo "... src/Renderer.o"
 	@echo "... src/Renderer.i"
 	@echo "... src/Renderer.s"

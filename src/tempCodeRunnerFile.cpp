@@ -1,0 +1,1 @@
+std::cout << "Particle count: " << particleSystem.particles.size() << std::endl;

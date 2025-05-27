@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/fluid_sim.dir/link.d"
+  "CMakeFiles/fluid_sim.dir/src/FluidSolver.cpp.o"
+  "CMakeFiles/fluid_sim.dir/src/FluidSolver.cpp.o.d"
+  "CMakeFiles/fluid_sim.dir/src/ParticleSystem.cpp.o"
+  "CMakeFiles/fluid_sim.dir/src/ParticleSystem.cpp.o.d"
   "CMakeFiles/fluid_sim.dir/src/Renderer.cpp.o"
   "CMakeFiles/fluid_sim.dir/src/Renderer.cpp.o.d"
   "CMakeFiles/fluid_sim.dir/src/main.cpp.o"
